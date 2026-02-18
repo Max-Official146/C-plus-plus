@@ -6,7 +6,7 @@
 - Statements end with a semicolon in C++
 */
 #include <iostream>
-
+// Here in function addNumber ther is two parameter first_number, second_number
 int addNumbers(int first_number, int second_number)
 {
   int sum = first_number + second_number;
@@ -15,8 +15,8 @@ int addNumbers(int first_number, int second_number)
 
 int main()
 {
-  int firstNumber = 12;
-  int secondNumber = 9;
+  int firstNumber{12}; // we can use 
+  int secondNumber{9};
   int sum = firstNumber + secondNumber;
 
   std::cout << "The sum of two number is : " << sum << std::endl;
@@ -35,5 +35,5 @@ int main()
 Function:
   firstNumber and secondNumber is input function
   sum is output function
-
+  function must be defined before it's use
 */
