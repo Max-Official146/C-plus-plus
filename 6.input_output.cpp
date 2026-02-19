@@ -12,6 +12,18 @@ int main(){
   std::cerr << "std::cerr output : Something went wrong" << std::endl;
 
   std::clog << "std::clog output : This is log message " << std::endl;
+  //Reading data in
+  int age1;
+  std::string name;
+
+  std::cout << "Please type in your Last Name : " << std::endl;
+  std::cin >> name;
+
+  std::cout << "Please type in your age : " << std::endl;
+  std::cin >> age1;
+
+  std::cout << "Hello " << name << " !You are " << age << " years old " << std::endl;
+
   return 0;
 }
 
